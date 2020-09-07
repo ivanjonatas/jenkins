@@ -141,9 +141,33 @@ node('master'){
 
 ## Pipeline com paramentros
 
+Dentro das configurações do job selecione essas opçoes:
 ![image](/image/criandoParamentro.png)
+
+Após selecionar a opção **Parâmetro string** informe o _nome do parêmentro_ e o _valor padrão_. Porém o valor padrão é opcional:
 ![image](/image/nomeParamentro.png)
+
+Com isso quando for executar job ele mostrara o parâmentro criado:
 ![image](/image/setParamentro.png)
+
+**Codigo pipeline**
+```
+node('master'){
+    
+    stage('Git Clone') {
+        checkout([$class: 'GitSCM', branches: [[name: '*/${BRANCH}']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'CREDENCIAL', url: 'URL-git']]])
+    }
+    stage('Executar test'){
+        echo "mvn clean test"
+    }
+    stage('Build aplicação'){
+        echo "mvn clean package"
+    }
+    stage('Subindo para Servidor'){
+        echo "enviando arquivo"
+    }
+}
+```
 
 
 ## Pipeline com github, java e maven
