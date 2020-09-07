@@ -142,13 +142,13 @@ node('master'){
 ## Pipeline com paramentros
 
 Dentro das configurações do job selecione essas opçoes:
-![image](/image/criandoParamentro.png)
+![image](/image/parameters/criandoParamentro.png)
 
 Após selecionar a opção **Parâmetro string** informe o _nome do parêmentro_ e o _valor padrão_. Porém o valor padrão é opcional:
-![image](/image/nomeParamentro.png)
+![image](/image/parameters/nomeParamentro.png)
 
 Com isso quando for executar job ele mostrara o parâmentro criado:
-![image](/image/setParamentro.png)
+![image](/image/parameters/setParamentro.png)
 
 **Codigo pipeline**
 ```
@@ -194,8 +194,6 @@ node('master'){
 }
 ```
 # Credenciais
-
-# Node jenkins
-- porque criar um slave
-
-# plugins
+![image](/image/credentials/confJenkins.png)
+![image](/image/credentials/credentials.png)
+![image](/image/credentials/criandoCredentials.png)
