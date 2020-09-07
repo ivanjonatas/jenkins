@@ -141,6 +141,10 @@ node('master'){
 
 ## Pipeline com paramentros
 
+![image](/image/criandoParamentro.png)
+![image](/image/nomeParamentro.png)
+![image](/image/setParamentro.png)
+
 
 ## Pipeline com github, java e maven
 
