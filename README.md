@@ -197,3 +197,9 @@ node('master'){
 ![image](/image/credentials/confJenkins.png)
 ![image](/image/credentials/credentials.png)
 ![image](/image/credentials/criandoCredentials.png)
+
+Links de referências:
+
+- [Install jenkins ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04-pt)
+
+- [Install jenkins docker](https://imasters.com.br/devsecops/docker-e-jenkins-para-build-de-aplicacoes)
