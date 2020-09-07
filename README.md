@@ -85,16 +85,6 @@ Na tela seguinte:
 - Resultado de execução do job
 
 # Pipelines
- - Tipos de pipelines
- - Escrita de pipelines
- - Pipeline simples 
- - Pipeline com github
- - Pipeline com paramentros
- - Pipeline com java e github
-
-## Tipos de pipelines
-
-## Escrita de pipelines
 
 
 ## Pipeline simples
