@@ -4,9 +4,9 @@
  - Conceito de pipeline
  - Pipeline na prática
 
-# Historia do jenkins
+# História do jenkins
  - Jenkins como código open source
- - Importancia do Jenkins
+ - Importância do Jenkins
 
 # Instalação
 
@@ -76,7 +76,7 @@ Na tela seguinte:
 - Confirme a url do seu jenkins.
 
 # Dashboard
-[imagem dashboard]
+![image](/image/jenkins.png)
 - Jobs
 - Name spaces
 - Configurações geral
