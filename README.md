@@ -1,12 +1,13 @@
 # jenkins passo a passo
 
+# História do jenkins
+ - Jenkins como código open source
+ - Importância do Jenkins
+ 
 # Pipeline
  - Conceito de pipeline
  - Pipeline na prática
 
-# História do jenkins
- - Jenkins como código open source
- - Importância do Jenkins
 
 # Instalação
 
